@@ -9,7 +9,7 @@ El cliente se ejecutará en la máquina local y su función es establecer la com
 con el servidor, enviar al servidor el comando, recibir los resultados y mostrarlos por
 pantalla. Para ello, el usuario escribirá en el prompt el comando:
 
-ClienteRemoto IP_Servidor Comando
+**ClienteRemoto IP_Servidor Comando**
 
 El servidor se lanzará con la orden ServidorRemoto y debe estar en todo momento
 escuchando por el puerto 9999, preparado para aceptar conexiones. Tras una petición de
@@ -18,7 +18,7 @@ todas las operaciones necesarias relacionadas con la ejecución de comando solic
 por el cliente.
 
 La puntuación del ejercicio será la siguiente:
-· Implementación correcta del cliente y su estructura. (1,5 puntos)
-· Implementación correcta del servidor y su estructura. (1,5 puntos)
-· Ejecución remota de comandos. (3 puntos)
+	**·** Implementación correcta del cliente y su estructura. (1,5 puntos)
+	**·** Implementación correcta del servidor y su estructura. (1,5 puntos)
+	**·** Ejecución remota de comandos. (3 puntos)
 
