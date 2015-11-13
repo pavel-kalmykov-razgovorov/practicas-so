@@ -21,7 +21,5 @@ por el cliente.
 La puntuación del ejercicio será la siguiente:
 
 	# Implementación correcta del cliente y su estructura. (1,5 puntos).
-
 	# Implementación correcta del servidor y su estructura. (1,5 puntos).
-
-	# Ejecución remota de comandos. (1,5 puntos).
+	# Ejecución remota de comandos. (3 puntos).
