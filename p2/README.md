@@ -5,6 +5,7 @@ funcionalidad será la ejecución remota de comandos sin parámetros. El ejercic
 constará de dos partes (procesos): el cliente que enviará el comando a ejecutar al
 servidor y el servidor que recibirá la petición desde el cliente, ejecutará el comando y
 devolverá los resultados al cliente.
+
 El cliente se ejecutará en la máquina local y su función es establecer la comunicación
 con el servidor, enviar al servidor el comando, recibir los resultados y mostrarlos por
 pantalla. Para ello, el usuario escribirá en el prompt el comando:
@@ -17,7 +18,10 @@ conexión por parte de un cliente, debe crear un hijo que será el encargado de 
 todas las operaciones necesarias relacionadas con la ejecución de comando solicitado
 por el cliente.
 
-La puntuación del ejercicio será la siguiente
-Implementación correcta del cliente y su estructura. (1,5 puntos)
-Implementación correcta del servidor y su estructura. (1,5 puntos)
-Ejecución remota de comandos. (1,5 puntos)
+La puntuación del ejercicio será la siguiente:
+
+	**·** Implementación correcta del cliente y su estructura. (1,5 puntos).
+
+	**·** Implementación correcta del servidor y su estructura. (1,5 puntos).
+
+	**·** Ejecución remota de comandos. (1,5 puntos).
