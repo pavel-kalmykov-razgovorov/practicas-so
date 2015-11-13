@@ -17,8 +17,7 @@ conexión por parte de un cliente, debe crear un hijo que será el encargado de 
 todas las operaciones necesarias relacionadas con la ejecución de comando solicitado
 por el cliente.
 
-La puntuación del ejercicio será la siguiente:
-	**#** Implementación correcta del cliente y su estructura. (1,5 puntos)
-	**#** Implementación correcta del servidor y su estructura. (1,5 puntos)
-	**#** Ejecución remota de comandos. (1,5 puntos)
-
+La puntuación del ejercicio será la siguiente
+Implementación correcta del cliente y su estructura. (1,5 puntos)
+Implementación correcta del servidor y su estructura. (1,5 puntos)
+Ejecución remota de comandos. (1,5 puntos)
