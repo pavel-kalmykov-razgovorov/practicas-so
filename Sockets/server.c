@@ -50,7 +50,7 @@ int main(int argc, char const *argv[]) {
 						puts("EJECUTANDO COMANDO EN SEGUNDO PLANO");
 						dup2(connector2, STDOUT_FILENO); //Ponemos como salida estándar el socket
 						dup2(connector2, STDERR_FILENO); //Lo mismo con la salida de errores
-						close(connector2); //Con dup2 no haria falta (segun Internet)
+						close(connector2);
 						system(buffer); //Ejecutamos el comando
 						buffer[0] = '\0'; //Por si acaso
 						exit(0);
